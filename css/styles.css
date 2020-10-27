@@ -1,0 +1,50 @@
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.footer {
+  text-align: center;
+  background-color: #8ea0bd;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+}
+.tableForm {
+  display: none;
+}
+
+#bTable {
+  width: 100%;
+}
+
+#bTable th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #8ea0bd;
+  color: white;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.homeHeader {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.error {
+  color: red;
+  font-size: 90%;
+}

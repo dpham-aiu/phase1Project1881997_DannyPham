@@ -48,3 +48,70 @@
   color: red;
   font-size: 90%;
 }
+
+.grayBackground {
+  background-color: #ccccff;
+  padding: 20px;
+}
+
+.blackBackground {
+  background-color: black;
+  height: 600px;
+  line-height: 600px;
+}
+
+.blackBackground span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  color: white;
+}
+
+.empTitle {
+  color: #c1c1d7;
+}
+
+.bgImgCarou1 {
+  background-image: url("../images/artist.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgImgCarou2 {
+  background-image: url("../images/paintTools.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bgImgCarou3 {
+  background-image: url("../images/tablet.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.blogTable {
+  border-style: solid;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.dateText {
+  font-size: 7px;
+}
+
+#image {
+  float: right;
+}
+
+.commentPara {
+  margin-top: 10px;
+}

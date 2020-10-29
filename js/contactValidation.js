@@ -57,6 +57,14 @@ function validateForm() {
     }
   }
 
+  //validate content section
+  if (coment == "") {
+    printError("commentErr", "Please enter some sort of comment to send");
+  } else {
+    printError("commentErr", "");
+    commentErr = false;
+  }
+
   if (fNameErr || lNameErr || phoneErr || emailErr || commentErr == true) {
     return false;
   } else {

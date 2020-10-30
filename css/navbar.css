@@ -1,5 +1,5 @@
-.navbar {
-  background-color: #8ea0bd;
+.nav-item {
+  color: black;
 }
 
 #topheader .navbar-nav li > a {
@@ -10,11 +10,29 @@
   &:hover,
   &:focus {
     background-color: #333;
-    color: #fff;
+    color: red;
   }
 }
 
 #topheader .navbar-nav li.active > a {
   background-color: #333;
   color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+  font-size: 25px;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: blue;
+}
+
+.navbar {
+  border-bottom: solid;
+  border-top: solid;
+}
+
+.navbar-toggler {
+  background-color: black;
 }

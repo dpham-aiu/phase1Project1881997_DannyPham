@@ -16,6 +16,7 @@ function validateForm() {
       printError("fNameErr", "Please enter a valid name.");
     } else {
       printError("fNameErr", "");
+      fNameErr = false;
     }
   }
 
@@ -28,6 +29,7 @@ function validateForm() {
       printError("lNameErr", "Please enter a valid name.");
     } else {
       printError("lNameErr", "");
+      lNameErr = false;
     }
   }
 
@@ -53,12 +55,12 @@ function validateForm() {
       printError("phoneErr", "Please enter a valid phone number.");
     } else {
       printError("phoneErr", "");
-      mobileErr = false;
+      phoneErr = false;
     }
   }
 
   //validate content section
-  if (coment == "") {
+  if (comment == "") {
     printError("commentErr", "Please enter some sort of comment to send");
   } else {
     printError("commentErr", "");

@@ -1,0 +1,33 @@
+1. First I created the directory for the project.
+    -js, css, pages, and images folder.
+    -pushed project out to github
+
+2. Created index.html and started working on the home page.
+    -Took carousel example from bootstrap4 and used it to create my own slideshow.
+        -added carousel.css
+    -added nav example and customized it.
+        -created navbar.css and styles.css
+    -created a footer using an example as reference.
+    -adding content (image and words) to the page.
+
+3. Copy pasted the header, and footer to every other page.
+    -created pages: table, contact, and about.
+
+4. started working on contact page.
+    -created a form page for users to send in information.
+    -this page is to fulfill the requirements of having a validation functionality working.
+    -created contactValidation.js to hold the functionality of validated inputs from user.
+
+5. start work on about page.
+    -added employee profile cards and customized the content.
+
+6. started work on table.html.
+    -this page held the contents for the blog page.
+    -created table.js
+        -add functionality to create bootstrap divs to hold user input to later display on the blog page.
+    -customized the content on the page and added one static blog post.
+
+7. Mainly styling the pages and fixing link issues.
+    -fixed nav active class issue.
+    -added some jquery statements to remove classes.
+    -
